@@ -1,0 +1,15 @@
+{
+  "name": "proposta-pdf",
+  "version": "1.0.0",
+  "description": "Gera propostas comerciais em PDF com acentuação, tabela de itens com quebra de página, totais e assinaturas — sem nenhuma dependência.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/proposta.js"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["pdf", "proposta", "orcamento", "proposal", "invoice", "zero-dependencies", "freelancer"],
+  "license": "MIT"
+}
